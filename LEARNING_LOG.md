@@ -30,27 +30,66 @@ gehören rein, das ist der eigentliche Lernwert.
 
 ## Einträge
 
-### Beispiel-Eintrag (kannst du löschen)
-
-### 2026-07-31 – Phase 1: Core-API Grundgerüst
+### 31.07.2026 – Phase 0: Vorbereitung
 
 **Was ich gemacht habe:**
-- FastAPI-Projekt aufgesetzt, Account-Model mit SQLModel definiert
-- POST- und GET-Endpoint für Accounts gebaut und mit curl getestet
+- Recherche HTTP Grundlagen
+
 
 **Was ich neu gelernt habe:**
-- `Depends()` in FastAPI ist Dependency Injection – die Funktion wird automatisch
-  aufgerufen und das Ergebnis in den Endpoint eingespeist
-- SQLModel braucht `table=True`, um wirklich eine DB-Tabelle zu erzeugen, sonst ist
-  es nur ein Pydantic-Validierungsmodell
+- Was ist HTTP? (Hyper Text Transfer Protocol)
+  - Regelt wie Client und Server miteinander kommunizieren
+
+- Anfragen-Inhalt:
+  - Inhalt im Nachrichtentext übermittelten Informationen
+
+- Anfrage Methoden:
+  - GET: Daten anfordern, soll nur Daten abrufen und keine Anfrage-Inhalt enthalten
+  - HEAD: verlangt eine Antwort wie eine GET-Anfrage, jedoch ohne Anwortkörper
+  - POST: Formulardaten senden (Große sensible Daten werden gesendet)
+  - PUT: Ersetzt ale aktuellen Darstellungen de Zielressource durch den Anfrage-Inhalt
+  - DELETE: löscht angegebene Ressource
+  - CONNECT: etabliert einen Tunnel zum vom Zielressource identifzierten Server
+  - OPTIONS: Kommunikationsoptionsen für die Zielressource
+  - TRACE: Nachrichtenschleifen-Test des Pfads zur Zielressource
+  - PATCH: wendet partielle Modifikationen auf eine Ressource an
+
+- Statuscodes:
+  - 200 OK: Anfrage erfolgreich
+  - 2xx: Erfolg
+  - 3xx: Umleitung
+  - 401: Unauthorized
+  - 404 Not found: Angefragte Daten kann nciht gefunden werden
+  - 4xx: Client Fehler
+  - 5xx: Server Fehler
 
 **Wo ich gestolpert bin & wie ich es gelöst habe:**
-- Problem: Server startete nicht, Fehler "Table already defined"
-- Ursache: Ich hatte das Model versehentlich zweimal importiert
-- Lösung: Import-Statements bereinigt, `__init__.py` korrekt genutzt
+- Problem:
+- Ursache:
+- Lösung:
 
 **Offene Fragen / was ich noch nicht verstehe:**
-- Wie genau unterscheidet sich `session.commit()` von `session.flush()`?
+-
 
 **Nächster Schritt:**
-- Category- und Transaction-Endpoints nach demselben Muster bauen
+- FastAPI Grundlagen recherchieren
+
+### 31.07.2026 – Phase 0: Vorbereitung
+
+**Was ich gemacht habe:**
+- Fast API Grundlagen recherchieren
+- Installation von einem Tool zum testen von APIs
+
+**Was ich neu gelernt habe:**
+- 
+
+**Wo ich gestolpert bin & wie ich es gelöst habe:**
+- Problem:
+- Ursache:
+- Lösung:
+
+**Offene Fragen / was ich noch nicht verstehe:**
+-
+
+**Nächster Schritt:**
+-
