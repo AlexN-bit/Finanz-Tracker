@@ -72,16 +72,54 @@ gehören rein, das ist der eigentliche Lernwert.
 -
 
 **Nächster Schritt:**
-- FastAPI Grundlagen recherchieren
+- benötigte Packages Installieren
 
-### 31.07.2026 – Phase 0: Vorbereitung
+### 04.08.2026 – Phase 0: Vorbereitung
 
 **Was ich gemacht habe:**
-- Fast API Grundlagen recherchieren
-- Installation von einem Tool zum testen von APIs
+- Python 3.14.6 installiert
 
 **Was ich neu gelernt habe:**
-- 
+- Python hat einen eigenen Versinsmanager veröffentlicht. Dieser musste installiert werden und nun kann man per py, python bestimmte Versionen installieren
+
+**Wo ich gestolpert bin & wie ich es gelöst habe:**
+- Problem: Keine Installationsdatei für Python gefunden.
+- Ursache: Läuft nun über den Manager 
+- Lösung: Verwende jetzt den Manager
+
+**Offene Fragen / was ich noch nicht verstehe:**
+-
+
+**Nächster Schritt:**
+- Node.js installieren
+
+### 04.08.2026 – Phase 0: Vorbereitung
+
+**Was ich gemacht habe:**
+- Node.js Installieren
+
+**Was ich neu gelernt habe:**
+- Node.js zu installieren
+- Meinen Arbeitsschrit ins git gepusht 
+
+**Wo ich gestolpert bin & wie ich es gelöst habe:**
+- Problem: Choclaty scheint nichtfunktioniert zu haben: Node.js ist trozdem richtig installiert
+- Ursache: -
+- Lösung: -
+
+**Offene Fragen / was ich noch nicht verstehe:**
+- Macht es mir auf lange Sicht Probleme?
+
+**Nächster Schritt:**
+- Phase 1
+
+### 05.08.2026 – Phase 1: Core-API in Python - Datenmodell & CRUD
+
+**Was ich gemacht habe:**
+-Neues Projekt
+
+**Was ich neu gelernt habe:**
+-
 
 **Wo ich gestolpert bin & wie ich es gelöst habe:**
 - Problem:
