@@ -116,15 +116,18 @@ gehören rein, das ist der eigentliche Lernwert.
 ### 05.08.2026 – Phase 1: Core-API in Python - Datenmodell & CRUD
 
 **Was ich gemacht habe:**
--Neues Projekt
+- Neues Projekt finance-core-api anlegen (NeuenOrdner erstellen)
+- Ordner mit virtueller Umgebung und requirments.txt füllen
+- requirments installtieren
+- Entwurf der Datenmodelle
 
 **Was ich neu gelernt habe:**
 -
 
 **Wo ich gestolpert bin & wie ich es gelöst habe:**
-- Problem:
+- Problem: Wie setze ich die virtuelle Umgebun auf?
 - Ursache:
-- Lösung:
+- Lösung: python -m venv venv (Wobei das zweite venv für den namen der Umgebung steht)
 
 **Offene Fragen / was ich noch nicht verstehe:**
 -
